@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Tiny Node.js static web server",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vuejs-use/anydoor.git"
@@ -16,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/Vuejs-use/anydoor/issues"
   },
-  "homepage": "https://github.com/Vuejs-use/anydoor#readme"
+  "homepage": "https://github.com/Vuejs-use/anydoor#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "supervisor": "^0.12.0"
+  }
 }
